@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sharks",
+  "version": "${version}",
+  "name": "Sharks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bettermc.sharks.fabric.SharksFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": ">=1.19"
+  }
+}
